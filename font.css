@@ -1,0 +1,16 @@
+.wrapper{
+	font-family: 'Roboto';
+}
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: fixed;
+        display: block;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+}
